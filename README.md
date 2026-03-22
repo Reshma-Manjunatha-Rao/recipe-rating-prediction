@@ -84,6 +84,9 @@ We built a full ML pipeline: from raw data ingestion and preprocessing, through 
 | 🏷️ RecipeCategory | Weak |
 
 > Features ranked by MSE contribution, R² contribution, and permutation test - all three metrics agreed, confirming robustness.
+<p align="center">
+<img width="600" height="500" alt="results-charts" src="https://github.com/user-attachments/assets/b383d9d7-1ed2-4d57-899b-aff32647dc27" />
+</p>
 
 ---
 
@@ -93,6 +96,10 @@ We built a full ML pipeline: from raw data ingestion and preprocessing, through 
 - **Missing factors:** author reputation, instruction clarity, ingredient availability, and price are untracked
 - **Sparse recent data:** very little data from 2020 onwards (COVID-era cooking behaviour unrepresented)
 - **Unrated reviews:** 5.4% of reviews had no star rating; sentiment analysis (NLTK) showed 79.5% of these were positive - excluded to avoid further skewing
+
+<p align="center">
+<img width="600" height="500" alt="rating-distribution" src="https://github.com/user-attachments/assets/f1b20f20-ce1f-4fd0-895b-a26b995fa76e" />
+</p>
 
 ---
 
